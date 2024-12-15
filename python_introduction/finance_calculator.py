@@ -3,8 +3,8 @@
 # finance_calculator.py
 
 # Prompt the user for their financial details in Kenyan Shillings
-monthly_income = float(input("Enter your monthly income in KES: "))
-monthly_expenses = float(input("Enter your total monthly expenses in KES: "))
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 # Calculate monthly savings
 monthly_savings = monthly_income - monthly_expenses
